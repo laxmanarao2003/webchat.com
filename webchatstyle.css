@@ -1,0 +1,219 @@
+/*********** Font-Size for global***********/
+p,h5
+{
+    font-size:99%;
+}
+h6
+{
+    font-size: 2%;
+}
+/************** basic.html *****************/
+.profileblock
+{
+    background-color: rgb(24,24,24);
+    max-height: 569px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.userprofile
+{
+    background-color: rgb(24,24,24);
+    max-height: 120px;
+    z-index: 1;
+}
+.chatblock
+{
+    background-color: rgb(40,40,40);
+    max-height: 569px;
+    overflow: hidden;
+    z-index: -1;
+}
+img:hover
+{
+    cursor: pointer;
+}
+::-webkit-scrollbar
+{
+    width:2.4px;
+    height: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: rgba(240, 255, 255, 0.306);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background-color: rgba(188, 13, 48, 0.874);
+}
+::-webkit-scrollbar-track
+{
+    width: 5px;
+    background-color: rgb(40,40,40);
+}
+.fa-whatsapp
+{
+    color: rgba(240, 255, 255, 0.306);
+}
+.startimg
+{
+    z-index: 1;
+}
+.instruct1
+{
+    color: rgba(240, 255, 255, 0.306);
+}
+.userimg
+{
+    cursor: pointer;
+    max-width:40px;
+}
+.rounded-circle
+{
+    max-width:42px;
+}
+.profile
+{
+    cursor: context-menu;
+}
+.profile:hover
+{
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+}
+.inpsearch
+{
+    background-color: transparent;
+    height: 40px;
+    border-radius: 4px;
+    border-top: 0.4px solid rgba(255, 255, 255, 0.272);
+    border-left: 0.4px solid rgba(255, 255, 255, 0.272);
+    border-right: 0.4px solid rgba(255, 255, 255, 0.272);
+    border-bottom: 2.7px solid #198754;
+}
+.inpsearch:focus
+{
+    background-color: transparent;
+    border-radius: 4px;
+    outline: none;
+}
+p{
+    overflow: hidden;
+}
+.status:hover,.newchat:hover,.settings:hover
+{
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+}
+div.lineht
+{
+    line-height:80%;
+}
+/************** index.html *****************/
+.bg-green
+{
+    height: 100px;
+    background-color: rgb(18 140 126);
+    z-index: -1;
+}
+.logo
+{
+    height: 60px;
+}
+.bg-whiteclr
+{
+    position: absolute;
+    background-color: aliceblue;
+    margin-top: 300px;
+    z-index: 1;
+}
+.bg-blackclr
+{
+    background-color: rgba(0, 0, 0, 0.906);
+    min-height: 1100px;
+    z-index: -1;
+}
+
+/********************* OFFICIAL.html *************************/
+/********************* OFFICIAL.html *************************/
+.chatbox
+{
+    background-color: rgb(22, 20, 20);
+    max-height: 569px;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.group
+{
+    background-color: rgb(40,40,40);
+    max-height: 120px;
+    z-index: 1;
+}
+.grpprofile
+{
+    max-width:42px;
+    max-height: 50px;
+}
+.msg
+{
+    border-radius: 9px;
+    background-color: rgba(40,40,40);
+    max-width: auto;
+}
+.incomingmsg
+{
+    border-radius: 9px;
+    background-color: #198754;
+}
+.img-msg
+{
+    border: 9px solid rgba(40,40,40);
+    border-radius: 9px;
+}
+/*.bg-img
+{
+    background-image: url('.\\chat-bg.png');
+    max-height: 569px;
+}*/
+#btm-input
+{
+    background-color: rgb(30, 27, 27);
+    border-radius: 3px;
+    z-index: 1;
+}
+input[type=text]
+{
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+}
+input[type=text]:focus
+{
+    background-color: transparent;
+    border-radius: 4px;
+    outline: none;
+}
+.fa-face-smile:hover,.fa-paperclip:hover,.fa-microphone:hover,.fa-arrow-right:hover
+{
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+}
+p
+{
+    overflow: hidden;
+}
+.dropdown-menu li a:hover
+{
+    background-color: rgb(40,40,40);
+}
+.newnchatdown
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/*********** STATUS.HTML************/
+.leftarw:hover
+{
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+}
