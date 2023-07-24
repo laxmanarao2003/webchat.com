@@ -34,8 +34,7 @@ img:hover
 }
 ::-webkit-scrollbar
 {
-    width:2.4px;
-    height: 10px;
+    width:5px;
 }
 ::-webkit-scrollbar-thumb
 {
@@ -112,7 +111,7 @@ div.lineht
 /************** index.html *****************/
 .bg-green
 {
-    height: 100px;
+    height: 200px;
     background-color: rgb(18 140 126);
     z-index: -1;
 }
@@ -130,12 +129,13 @@ div.lineht
 .bg-blackclr
 {
     background-color: rgba(0, 0, 0, 0.906);
-    min-height: 1100px;
+    min-height: 850px;
+    top:200px;
     z-index: -1;
 }
 
 /********************* OFFICIAL.html *************************/
-/********************* OFFICIAL.html *************************/
+/********************* OFFICIAL.html *************************/     
 .chatbox
 {
     background-color: rgb(22, 20, 20);
