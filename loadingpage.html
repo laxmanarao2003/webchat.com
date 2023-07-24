@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+        WebChat
+      </title> 
+      <meta name="author" content="Laxmana Rao">
+      <meta name="description" content="Webchat">
+      <meta name="keywords" content="">
+      <meta name="viewport" content="intial-scale-1.0,width=device-width">
+      <meta http-equiv="refresh" content="">
+      <!----------------------------- FAVICON --------------------------------->
+      <link rel="icon" href=".\webchat.jpg" type="image/x-icon">
+
+      <!-------------------------External CSS ---------------------------------->
+      <link rel="stylesheet" href=".\webchatstyle.css" type="text/css">
+
+      <!------------------------------- JQUERY-JS-CDN -------------------------->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+      <!----------------------------- Fontawesome-JS-CDN -------------------------->
+      <script src="https://kit.fontawesome.com/832f4883ab.js" crossorigin="anonymous"></script>
+
+      <!--------------------------- BOOTSTRAP-Css-CDN --------------------------->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- --------------------- BOOTSTRAP-JavaScript-CDN ---------------------------->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+      <!------------------------ BOOTSTRAP-JQuery-CDN -------------------------->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   </head>
+   <style>
+    .loading
+    {
+        background-color: rgb(40,40,40);
+        min-height: 745px;
+    }
+   </style>
+<body oncontextmenu="return false">
+    <div class=" container-fluid loading pt-5">
+        <div>
+            <div class="text-center mt-5">
+              <i class="fa-brands fa-whatsapp display-1"></i> 
+            </div>
+            <div class="mt-2">
+                <h3 class="text-center instruct1">
+                    Whatsapp Web-Chat
+                </h3>
+                <div class="d-flex justify-content-center mt-5">
+                    <div class="progress col-5" style="height: 3px;">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" id="demo" style="width: 0%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center pt-4">
+              <i class="fa-solid fa-lock pt-1 me-2 instruct1 mt-5"></i>
+              <p class="instruct1 mt-5">end-to-end encrypted</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        // creating progress bar using setInterval:)
+        window.addEventListener("load",progressevent);
+        function progressevent() {  
+            let width = 0;
+            const id = setInterval(frame, 100);
+            function frame() 
+            {
+                if (width == 100)
+                {
+                    clearInterval(id);
+                    window.location.replace("basic.html");
+                } 
+                else if(width>15 && width<=60)
+                    width=width+55;
+                else	
+                    width++;
+                document.getElementById("demo").style.width=width+"%";
+            }
+        }
+    </script>
+</body>
+</html>
