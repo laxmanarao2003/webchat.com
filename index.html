@@ -46,12 +46,13 @@
       }
    </style>
 <body oncontextmenu="return false">
-   <div class="container-fluid bg-green">
+
+   <div class="container-fluid bg-green" style="z-index: -1;">
       <h6 class="text-white ms-4 pt-4">
-         <img src=".\whatsapplogo.png" class="logo">WEB CHAT
+         <img src=".\whatsapplogo.png" style="width: auto;" class="logo">WEB CHAT
       </h6>
    </div>
-   <div class="container d-flex flex-wrap justify-content-center">
+   <div class="container col-lg-9 d-flex flex-wrap " style="left:0;right:0;position: absolute;top:95px;z-index: 1;">
       <div class="container row bg-whiteclr">
          <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 mt-5">
             <h3 class="ps-2">To Use Whatsapp on your computer</h3>
@@ -65,12 +66,13 @@
          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center mt-4">
             <img src=".\qrimg.jpg" class="mt-2 w-75 h-75">
          </div>
-         <a href="#" class="text-success ps-5 text-decoration-none pb-4">Need help to get started?</a>
+         <hr style="opacity: 0.1;">
+         <a href="#" class="text-success ps-5 text-decoration-none pb-4 pt-3">Need help to get started?</a>
          <video controls class="d-flex flex-wrap justify-content-center container pb-5 w-75 mt-3">
             <source src=".\tutorial.mp4">
          </video>
          <div class="d-flex flex-wrap justify-content-center">
-            <a href=".\basic.html" class="btn btn-outline-success mb-5" style="z-index: 1;">Whatsapp</a>
+            <a href=".\loadingpage.html" class="btn btn-outline-success mb-5" style="z-index: 1;">Whatsapp</a>
          </div>
       </div>
    </div>
